@@ -15,25 +15,6 @@ It uses **localStorage** to persist product data between sessions.
 - **Pagination**: The product list is paginated, displaying a limited number of products per page.
 - **Persist Data**: Product data is stored in the browser's localStorage to persist between page reloads.
 
-## Project Structure
-
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── AddProduct.jsx
-│   │   ├── Modal.jsx
-│   │   ├── Pagination.jsx
-│   │   ├── ProductList.jsx
-│   │   ├── SearchFilter.jsx
-│   ├── images/
-│   ├── Recoil/
-│   │   ├── Atoms.jsx
-│   │   ├── Selector.jsx
-│   ├── App.js
-│   ├── index.js
-├── package.json
-├── README.md
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -44,11 +25,11 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 
 1. **Clone the Repository**:
    bash
-    git clone [https://github.com/Mazen-ME/product-listing-app.git](https://github.com/Mazen-ME/product-listing-app.git)
+    git clone [https://github.com/Mazen-ME/products.git](https://github.com/Mazen-ME/products.git)
 
 2. **Navigate into the project directory**:
   bash
-    cd product-listing-app
+    cd products
 
 3. **Install dependencies**:
   bash
@@ -86,12 +67,6 @@ This will create a `build/` folder with all the static assets to deploy.
 - The form uses **Formik** for handling form state and **Yup** for validation.
 - Images are converted to base64 and stored in localStorage.
 - Pagination is implemented with **ReactPaginate**.
-
-## Future Improvements
-
-- Add user authentication to allow individual users to manage their own product listings.
-- Improve image handling by integrating cloud storage instead of base64.
-- Introduce filtering by categories or other product attributes.
 
 ## Author
 
