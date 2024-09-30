@@ -25,7 +25,7 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 
 1. **Clone the Repository**:
    bash
-    git clone [https://github.com/Mazen-ME/products.git](https://github.com/Mazen-ME/products.git)
+    git clone [https://github.com/MazenME/products.git](https://github.com/MazenME/products.git)
 
 2. **Navigate into the project directory**:
   bash
